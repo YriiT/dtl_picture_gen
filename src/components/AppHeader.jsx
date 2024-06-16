@@ -11,11 +11,7 @@ const items = [
 
     {
         key: 'alipay',
-        label: (
-            <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-                История действий
-            </a>
-        ),
+        label: 'История действий',
         icon: <HistoryOutlined />
     },
 ];
