@@ -27,7 +27,7 @@ export const AppHeader = () => {
     };
     return (
         <Col md={24}>
-            <Row >
+            <Row wrap={false}>
                 <Col flex={'0 0 70px'} style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -39,7 +39,7 @@ export const AppHeader = () => {
                     <Avatar icon={<UserOutlined />} />
                     <Divider type="vertical" style={{ height: 30 }} />
                 </Col>
-                <Col flex={'1 1 200px'}>
+                <Col flex={'1 0 300px'}>
                     <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
                 </Col>
             </Row>
